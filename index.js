@@ -46,6 +46,7 @@ exports.notDefined = (item) => {
 };
 
 /**
+ Nil is Null OR Undefined.
  True if the item passed in is nil.
  Nil is either null or undefined.
  True if nothing passed in.
@@ -83,7 +84,7 @@ exports.anyNil = (...items) => {
 }
 
 /**
- False if the itme passed in is not nil.
+ False if the item passed in is not nil.
  Nil is either null or undefined.
  False if nothing passed in.
 **/
