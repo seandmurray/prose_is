@@ -1,0 +1,35 @@
+{
+  "name": "prose_is",
+  "version": "2.0.1",
+  "description": "A logic Utility. Make writing node easier, prettier and less error prone. Writes and reads more like prose.",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "core",
+    "defined",
+    "easy",
+    "lodash",
+    "nil",
+    "not",
+    "null",
+    "pretty",
+    "prose",
+    "short",
+    "simple",
+    "style",
+    "type",
+    "undefined"
+  ],
+  "authors": [
+    "Sean D. Murray"
+  ],
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seandmurray/prose_is"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
