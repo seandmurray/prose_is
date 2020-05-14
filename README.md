@@ -3,11 +3,11 @@
 Copyright (c) 2020 Seán D. Murray
 SEE MIT LICENSE FILE
 
-A logic Utility. Make writing node easier, prettier and less error prone. Writes and reads more like prose.
+A logic Utility. Nil is: null or undefined. Make writing node easier, prettier and less error prone. Writes and reads more like prose.
 
 ## Notes
 
-A new concept of *nil* has been added. Nil is anything that is either undefined or null.
+A new concept of *Nil* has been added. Nil is anything that is either undefined or null.
 
 ## Usage
 
@@ -15,7 +15,6 @@ A new concept of *nil* has been added. Nil is anything that is either undefined 
 const is = require('prose_is');
 
 /**
- Nil is Null OR Undefined.
  True if the item passed in is nil.
  Nil is either null or undefined.
  True if nothing passed in.
@@ -45,11 +44,13 @@ is.anyNil(obj1, obj2);
 
 // Example
 const someList = someCallReturningList();
+// use the ... operator to decompose the list into arguments.
 if(is.allNil(...someList)) {
   // Do stuff here
   // as the list is empty or all the values are null or undefined.
 }
 
+// use the ... operator to decompose the list into arguments.
 if(is.anyNil(...someList)) {
   // Do other stuff here
   // as the list is empty or all the values are null or undefined.
@@ -62,6 +63,7 @@ if(is.anyNil(...someList)) {
  Returns true if nothing passed in.
  Returns true if null is passed in.
  Returns true if undefined is passed in.
+ You never have to use the ! operator again!
 **/
 is.not(true); // False
 is.not(false); // True
